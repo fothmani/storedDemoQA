@@ -48,3 +48,4 @@ open nightwatch.conf.js in the main folder
 under selenium --> start_process  set the value of TRUE to set up that the selenium server starts with the test
 
 
+# storeDemoQA
