@@ -5,7 +5,6 @@
   "author": {
     "name": "Fahmi OTHMANI"
   },
-
   "scripts": {
     "e2e-test": "nightwatch --cucumber",
     "lint": "standard"
