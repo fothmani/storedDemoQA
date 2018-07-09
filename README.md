@@ -26,25 +26,25 @@ One is for running e2e tests by running the following command
  npm run e2e-test
 ```
 And the other one is to check eslint standard rules for syntax quality by running
-```
-sh npm run lint
+```sh
+npm run lint
 ```
 
 ## Project hierarchy
 
 This project is composed to 3 main sections with a configuration file.
 
-Features folder: Where I write my scenarios using BDD approach with Cucumber
+tests/features: Where I write my scenarios using BDD approach with Cucumber
 
-PageObjects: An adiitional layer of abstraction to make the test more readable and maitainable
+tests/pageObjects: An adiitional layer of abstraction to make the test more readable and maitainable
 
-Step_definitions: In order to match and automate the scenario in feature file using nightwatch framework
+tests/step_definitions: In order to match and automate the scenario in feature file using nightwatch framework
 
 `nighwatch.conf.js`: a global config for the the project. In this file:
 
 under test_settings --> default --> desiredCapabilities --> browserName  you can change the value to chrome or firefox to change the browser
 
-In addition, there are two other folders screenshots and reports. The first one is used for screenshots capture and the second one is for generating report.
+In addition, there are two other folders tests/screenshots and tests/reports. The first one is used for screenshots capture and the second one is used for generating report.
 
 
 ### reports
