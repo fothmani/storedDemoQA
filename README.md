@@ -14,7 +14,7 @@ Then...
 
 ```sh
 $ git clone https://github.com/fothmani/storedDemoQA.git
-$ cd storeDemoQA
+$ cd storedDemoQA
 $ npm install
 ```
 
