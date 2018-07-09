@@ -19,7 +19,7 @@ module.exports = {
       this
         .waitForElementVisible('@comment')
         .clearValue('@comment')
-        .setValue('@comment', 'this is a commit')
+        .setValue('@comment', 'This is a comment')
       this
         .waitForElementVisible('@name')
         .setValue('@name', 'fahmi')
