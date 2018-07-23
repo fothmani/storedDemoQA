@@ -35,7 +35,7 @@ module.exports = {
 
     clickOnBack () {
       this
-        .waitForElementVisible('@backLink', 5000)
+        .waitForElementVisible('@backLink')
         .click('@backLink')
       return this
     }
