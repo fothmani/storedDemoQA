@@ -9,7 +9,7 @@ var options = {
     'App Version': '1.0.0',
     'Browser': 'Chrome  67.0.3396.99',
     'Platform': 'Ubuntu 16.05',
-    'Executed By': 'fothmani',
+    'Executed By': '@fothmani',
     'Executed': 'Local'
   }
 }
