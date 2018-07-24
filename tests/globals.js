@@ -4,14 +4,13 @@ var options = {
   jsonFile: 'tests/reports/cucumber.json',
   output: 'tests/reports/report.html',
   reportSuiteAsScenarios: true,
-  launchReport: true,
+  launchReport: false,
   metadata: {
-    'App Version': '0.3.2',
-    'Test Environment': 'STAGING',
-    'Browser': 'Chrome  54.0.2840.98',
-    'Platform': 'Windows 10',
-    'Parallel': 'Scenarios',
-    'Executed': 'Remote'
+    'App Version': '1.0.0',
+    'Browser': 'Chrome  67.0.3396.99',
+    'Platform': 'Ubuntu 16.05',
+    'Executed By': 'fothmani',
+    'Executed': 'Local'
   }
 }
 
